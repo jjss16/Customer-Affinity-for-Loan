@@ -1,1 +1,1 @@
-{"n_estimators": 8212, "colsample_bytree": 0.9294650104948371, "gamma": 0.0008063171490771039, "eta": 0.6873165675063626, "max_depth": 8}
+{"n_estimators": 8212, "colsample_bytree": 0.9294650104948371, "gamma": 0.0008063171490771039, "eta": 0.6873165675063626, "max_depth": 8, "tree_method": "gpu_hist"}
