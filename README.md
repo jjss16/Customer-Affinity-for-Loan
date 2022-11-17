@@ -79,4 +79,11 @@ Para el entrenamiento del modelo usamos el método Stratified K Fold y la librer
 <br>
 ### Metricas:
 Utilizamos la métrica Recall ya que permite lidiar correctamente con datasets desbalanceadas. Ayuda a responder la pregunta ¿Qué porcentaje de los clientes que sí están interesados, somos capaces de identificar? (no es relevante identificar los que NO, porque son la gran mayoría).
+<br>
+<br>
+### Resultados del Modelo:
+
+### Futuras líneas:
+
+### Conclusiones:
 
