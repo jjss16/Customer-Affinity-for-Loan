@@ -1,15 +1,15 @@
 # Customer Affinity for Loan
 
 ### Business Case:
-La empresa analizada corresponde a una Institucion Bancaria Portuguesa; por lo tanto los datos de este Dataset estan relacionados con campañas de marketing directo (llamadas telefónicas) de la misma. La institución está interesada en predecir si un cliente será propenso a realizar un depósito a plazo fijo en el banco a partir de los datos obtenidos.
+The company analyzed corresponds to a Portuguese Banking Institution. The data in this Dataset is related to direct marketing campaigns (phone calls). The institution is interested in predicting whether a customer is likely to suscribe to a fixed term deposit.
 <br>
 <br>
-### Objetivos del análisis:
-A partir de la Campana de marketing intentamos entender los pratrones de comportamiento de cada usuario para poder predecir si un futuro cliente va a acceder a un deposito a plaza fijo. Con esta informacion, la empresa estará en condiciones de segmentar correctamente sus campañas publicitarias.
+### Objectives of the analysis:
+From the Marketing Campaign we try to understand the behavior patterns of each user to be able to predict if a future client will access a fixed term deposit. With this information, the company will be able to correctly segment its advertising campaigns.
 <br>
 <br>
-### Descripcion de los datos:
-El Dataset está formado por más de 40.000 registros, donde cada uno corresponde a una llamada teléfonica realizada en campaña de marketing anteriores. Se cuenta con una variable Target (y), la cual indica si un cliente se suscribió o no a un depósito a plazo fijo. 
+### Data description:
+The Dataset is made up of more than 40,000 rows, where each one belongs to a telephone call made in previous marketing campaigns. There is a variable Target (y), which indicates whether or not a customer subscribed to a fixed term deposit.
 <br>
 <br>
 ### Attribute Information:
@@ -69,12 +69,12 @@ Nr.employed: number of employees - quarterly indicator (numeric)
 y - has the client subscribed a term deposit? (binary: 'yes', 'no')
 <br>
 <br>
-### Modelos:
-Se definió entrenar 7 modelos distintos para la predicción de la variable binaria target (y_yes: indica si una persona realizará un depósito a plazo o no). 
+### Models:
+It was defined to train 7 different models for the prediction of the binary target variable (y_yes: indicates whether a person will make a term deposit or not).
 <br>
 <br>
-### Entrenamiento del Modelo:
-Para el entrenamiento del modelo usamos el método Stratified K Fold y la librería Optuna para encontrar los mejores hiperparámetros.
+### Model Training:
+For the training of the model we use Stratified K Fold method and Optuna library to find the best hyperparameters.
 <br>
 <br>
 ### Metricas:
