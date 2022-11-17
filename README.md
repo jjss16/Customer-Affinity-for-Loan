@@ -2,17 +2,16 @@
 
 ### Business Case:
 La empresa analizada corresponde a una Institucion Bancaria Portuguesa; por lo tanto los datos de este Dataset estan relacionados con campañas de marketing directo (llamadas telefónicas) de la misma. La institución está interesada en predecir si un cliente será propenso a realizar un depósito a plazo fijo en el banco a partir de los datos obtenidos.
-
-
+<br>
+<br>
 ### Objetivos del análisis:
 A partir de la Campana de marketing intentamos entender los pratrones de comportamiento de cada usuario para poder predecir si un futuro cliente va a acceder a un deposito a plaza fijo. Con esta informacion, la empresa estará en condiciones de segmentar correctamente sus campañas publicitarias.
-
-
+<br>
+<br>
 ### Descripcion de los datos:
 El Dataset está formado por más de 40.000 registros, donde cada uno corresponde a una llamada teléfonica realizada en campaña de marketing anteriores. Se cuenta con una variable Target (y), la cual indica si un cliente se suscribió o no a un depósito a plazo fijo. 
-
-
-
+<br>
+<br>
 ### Attribute Information:
 #### Bank client data:
 
@@ -29,7 +28,6 @@ Default: has credit in default? (categorical: 'no', 'yes', 'unknown')
 Housing: has housing loan? (categorical: 'no', 'yes', 'unknown')
 
 Loan: has personal loan? (categorical: 'no', 'yes', 'unknown')
-
 
 #### Related with the last contact of the current campaign:
 
@@ -69,5 +67,16 @@ Nr.employed: number of employees - quarterly indicator (numeric)
 #### Output variable (desired target):
 
 y - has the client subscribed a term deposit? (binary: 'yes', 'no')
-
+<br>
+<br>
+### Modelos:
+Se definió entrenar 7 modelos distintos para la predicción de la variable binaria target (y_yes: indica si una persona realizará un depósito a plazo o no). 
+<br>
+<br>
+### Entrenamiento del Modelo:
+Para el entrenamiento del modelo usamos el método Stratified K Fold y la librería Optuna para encontrar los mejores hiperparámetros.
+<br>
+<br>
+### Metricas:
+Utilizamos la métrica Recall ya que permite lidiar correctamente con datasets desbalanceadas. Ayuda a responder la pregunta ¿Qué porcentaje de los clientes que sí están interesados, somos capaces de identificar? (no es relevante identificar los que NO, porque son la gran mayoría).
 
