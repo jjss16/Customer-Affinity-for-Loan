@@ -77,13 +77,13 @@ It was defined to train 7 different models for the prediction of the binary targ
 For the training of the model we use Stratified K Fold method and Optuna library to find the best hyperparameters.
 <br>
 <br>
-### Metricas:
-Utilizamos la métrica Recall ya que permite lidiar correctamente con datasets desbalanceadas. Ayuda a responder la pregunta ¿Qué porcentaje de los clientes que sí están interesados, somos capaces de identificar? (no es relevante identificar los que NO, porque son la gran mayoría).
+### Metrics:
+We use Recall metric as it allows us to correctly deal with unbalanced datasets. It helps answer the question: What percentage of customers who are interested are we able to identify? (It is not relevant to identify those that are NOT, because they are the vast majority).
 <br>
 <br>
-### Resultados del Modelo:
+### Model Results:
 
-### Futuras líneas:
+### Future lines:
 
-### Conclusiones:
+### Conclusions:
 
