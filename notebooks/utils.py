@@ -12,7 +12,7 @@ from sklearn.metrics import balanced_accuracy_score,accuracy_score,recall_score,
 
 import matplotlib.pyplot as plt
 #================================ GET X AND Y ==================================#
-def data_trasnform(df: pd.DataFrame,smote = False):
+def data_trasnform(df: pd.DataFrame,smote = False,ohe = True):
     '''
         this function apply encoding, standar scaler , split 
         independent variabe and dependet variable and SMOTE
@@ -23,11 +23,12 @@ def data_trasnform(df: pd.DataFrame,smote = False):
     '''
     
     # ============== Feature engeniering======================#
-    df['age_group'] =  pd.cut(x=df['age'], bins=[15,30,40,50,60,100],\
-                    labels= ['15-30' , '30 -40' , '40 - 50', '50 - 60' , '60 - mas'])
+    # df['age_group'] =  pd.cut(x=df['age'], bins=[15,30,40,50,60,100],\
+    #                 labels= ['15-30' , '30 -40' , '40 - 50', '50 - 60' , '60 - mas'])
     
     #===============One Hot Encoding=======================#
-    df=pd.get_dummies(data=df, drop_first=True)
+    if ohe:
+        df=pd.get_dummies(data=df, drop_first=True)
     
     # ============== STANDARD SCALER=======================#
     scaler = StandardScaler()
@@ -156,4 +157,4 @@ def read_hyperameter_json(path = '' ):
 def save_hyperameter_json(dictionary,path = '' ):
     with open(path, "w") as outfile:
         json.dump(dictionary, outfile)
-        print('Save ready')
+        print('#===================Save ready==========================#')
