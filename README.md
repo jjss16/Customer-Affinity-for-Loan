@@ -112,8 +112,7 @@ Recall is a metric that quantifies the number of correct positive predictions ma
 
 <br>
 <br>
-
-### Future Lines
+### Future Lines:
 
 In the future, a detailed analysis could be carried out of the cases that were classified as negative, that is, they would not subscribe to a term deposit.
 The idea is to cluster with clients who are not likely to adhere to a fixed term within the bank.
@@ -121,5 +120,16 @@ The idea is to cluster with clients who are not likely to adhere to a fixed term
 <br>
 
 ### Conclusions:
+
+The results show that we are able to identify with more accuracy those who will not suscribe fixed term deposit, that those that will. <br>
+
+Apparently, the stacking model it's not as effcient as Naive Bayes model for this particularly case. <br>
+
+Finally, we believe that a more balanced dataset will provide this model more consistence, accuracy and efficience. 
+
+
+
+
+
 
 
