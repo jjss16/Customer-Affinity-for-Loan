@@ -112,7 +112,7 @@ Recall is a metric that quantifies the number of correct positive predictions ma
 
 <br>
 <br>
-### Future lines:
+### Future Lines:
 
 In the future, a detailed analysis could be carried out of the cases that were classified as negative, that is, they would not subscribe to a term deposit.
 The idea is to cluster with clients who are not likely to adhere to a fixed term within the bank.
