@@ -83,6 +83,19 @@ We use Recall metric as it allows us to correctly deal with unbalanced datasets.
 <br>
 ### Model Results:
 
+Recall was the best metric to analyze due to the structure of the data. Please find below the results:
+
+XGBoost: 5.98%
+K-NN Classification: 10.8%
+Random Forest: 4.49%
+Logistic Regression: 22.34%
+Support Vector Machines: 6.08%
+Naive Bayes Classifier: 75.55%
+Catboost Classifier: 3.23%
+Stacking model: 6%
+
+Recall is a metric that quantifies the number of correct positive predictions made out of all positive predictions that could have been made.
+
 <br>
 <br>
 ### Future lines:
@@ -93,4 +106,4 @@ The idea is to cluster with clients who are not likely to adhere to a fixed term
 <br>
 ### Conclusions:
 
-kk
+
