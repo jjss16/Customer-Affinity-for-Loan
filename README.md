@@ -83,6 +83,14 @@ We use Recall metric as it allows us to correctly deal with unbalanced datasets.
 <br>
 ### Model Results:
 
+<br>
+<br>
 ### Future lines:
 
+In the future, a detailed analysis could be carried out of the cases that were classified as negative, that is, they would not subscribe to a term deposit.
+The idea is to cluster with clients who are not likely to adhere to a fixed term within the bank.
+<br>
+<br>
 ### Conclusions:
+
+kk
